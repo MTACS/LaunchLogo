@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Logo</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>LLPSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mtac.launchlogo.preferences</string>
+			<key>PostNotification</key>
+			<string>com.mtac.launchlogo.preferences/preferences.changed</string>
+			<key>key</key>
+			<string>invertLogo</string>
+			<key>label</key>
+			<string>Use Black Logo</string>
+			<key>subtitle</key>
+			<string>Inverts Apple logo color</string>
+			<key>iconImageSystem</key>
+			<dict>
+				<key>name</key>
+				<string>arrow.left.arrow.right.circle.fill</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>LLPSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mtac.launchlogo.preferences</string>
+			<key>key</key>
+			<string>useCustomColor</string>
+			<key>id</key>
+			<string>useCustomColor</string>
+			<key>label</key>
+			<string>Use Custom Color</string>
+			<key>subtitle</key>
+			<string>Set color of background layer</string>
+			<key>iconImageSystem</key>
+			<dict>
+				<key>name</key>
+				<string>iphone</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>LLPColorCell</string>
+			<key>defaults</key>
+			<string>com.mtac.launchlogo.preferences</string>
+			<key>key</key>
+			<string>backgroundColor</string>
+			<key>label</key>
+			<string>Background Color</string>
+			<key>subtitle</key>
+			<string>Swipe left to reset</string>
+			<key>height</key>
+			<string>70</string>
+			<key>id</key>
+			<string>backgroundColor</string>
+			<key>PostNotification</key>
+			<string>com.mtac.launchlogo.preferences/preferences.changed</string>
+			<key>iconImageSystem</key>
+			<dict>
+				<key>name</key>
+				<string>paintbrush.pointed.fill</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Source</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>LLPTableCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.mtac.launchlogo.preferences</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>action</key>
+			<string>viewSource</string>
+			<key>subtitle</key>
+			<string>View on GitHub</string>
+			<key>iconImageSystem</key>
+			<dict>
+				<key>name</key>
+				<string>safari.fill</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LaunchLogo</string>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+Package: com.mtac.launchlogo
+Name: LaunchLogo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Show the Apple logo during respring
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+Depends: firmware (>=14.0)
+Tag: purpose::extension, role::developer
+Icon: https://mtac.app/repo/assets/com.mtac.launchlogo/icon-rounded.png
+SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
